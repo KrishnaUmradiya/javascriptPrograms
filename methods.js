@@ -80,11 +80,34 @@
 // console.log("after filter old array : ",numbers);
 // console.log("forEach : ");
 // numbers.forEach(num => console.log(num))
-let num = [3,5,2,1,4]
-console.log("sort : ",num.sort());
-console.log("reverse : ",num.reverse());
+// let num = [3,5,2,1,4]
+// console.log("sort : ",num.sort());
+// console.log("reverse : ",num.reverse());
 
-let nestedArr = [1,2,[3,4],[5,6]]
-console.log("defalut nested array : ",nestedArr);
-let flatArr = nestedArr.flat()
-console.log("flat array : ",flatArr);
+// let nestedArr = [1,2,[3,4],[5,6]]
+// console.log("defalut nested array : ",nestedArr);
+// let flatArr = nestedArr.flat()
+// console.log("flat array : ",flatArr);
+
+// array destructuring(only required element get)
+// let array = [1,2,3,4,5]
+// const [first,second,third] = array
+// console.log(first);
+// console.log(second);
+// console.log(third);
+
+//skip the element
+// let array1 = [1,2,3,4]
+// const [first, ,third] = array1
+// console.log(first );
+// console.log(third);
+
+//rest operator
+const num1 = [1,2,3,4,5]
+const [first,second,...rest] = num1
+console.log(first);
+console.log(second);
+console.log(rest);
+
+
+
